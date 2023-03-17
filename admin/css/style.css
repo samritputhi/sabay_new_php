@@ -1,0 +1,139 @@
+.btn_box{
+    width: 100%;
+    float: left;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.btn_box #btnAdd{
+    width: 5%;
+    height: 100%;
+    float: left;
+    display: none;
+}
+#search_box{
+    width: 25%;
+    margin: auto;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid dimgray;
+}
+#search_box .input{
+    width: 100%;
+    height: 100%;
+}
+#content{
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+.upl{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid dimgray;
+}
+.upl span{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+.image-box{
+    width: 100%;
+    height: 100px;
+}
+.txt-image{
+    width: 100px;
+    height: 100px;
+    background-image: url("../css/bg-img.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    box-shadow: 1px 1px 1px 2px dimgray;
+    cursor: pointer;
+    position: relative;
+}
+.txt-image input{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.popup{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.806);
+}
+.formData{
+    position:absolute;
+    left: 0;
+    top: 12%;
+    width: 40%;
+    height: 100%;
+    margin-left: 35%;
+    overflow: hidden;
+}
+.btnClose{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    background-color: red;
+    cursor: pointer;
+}
+.form-group{
+    margin-bottom: 0;
+}
+.table_box{
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+.img-loadding{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-image: url("../css/img-loading.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-close{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    border-radius: 50%;
+    background-image: url("../css/img-close.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+    border: 1px solid dimgray;
+    cursor: pointer;
+}
+.table img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
